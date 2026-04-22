@@ -1,0 +1,21 @@
+{
+  "name": "patent-search-proxy",
+  "version": "1.0.0",
+  "description": "Patent search proxy with headless Chrome rendering for Render.com deployment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "puppeteer": "^22.0.0",
+    "@sparticuz/chromium": "^119.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
