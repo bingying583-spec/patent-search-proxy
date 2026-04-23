@@ -1,17 +1,16 @@
 {
   "name": "patent-search-proxy",
-  "version": "1.2.0",
-  "description": "Patent search proxy with headless Chrome rendering for Render.com deployment",
+  "version": "2.0.0",
+  "description": "Patent search proxy using direct HTTP scraping for Render.com deployment",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "@sparticuz/chromium": "^119.0.2",
+    "axios": "^1.6.0",
     "cheerio": "^1.0.0",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "puppeteer-core": "^22.0.0"
+    "express": "^4.18.2"
   },
   "engines": {
     "node": ">=18.0.0"
